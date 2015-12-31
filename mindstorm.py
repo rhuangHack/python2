@@ -19,6 +19,11 @@ def draw_spuare():
     brad.forward(100)
     brad.right(90)
 
+    angle = turtle.Turtle()
+    angle.shape("arrow")
+    angle.color("blue")
+    angle.circle(100)
+
     window.exitonclick()
 
 draw_spuare()
