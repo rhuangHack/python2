@@ -22,7 +22,7 @@ def draw_art():
     brad.shape("turtle")
     brad.color("black")
     brad.speed(2)
-    for i in range(1, 37):
+    for i in range(36):
         draw_square(brad)
         brad.right(10)
     
