@@ -26,11 +26,11 @@ def draw_shadow():
     mark.speed(0)
 
     mark.left(90)
-    shadow(mark, 90, 0.8, 25)
+    shadow(mark, 85, 0.8, 25)
 
     mark.color("brown")
     mark.right(180)
-    shadow(mark, 80, 0.7, 35)
+    shadow(mark, 80, 0.8, 25)
     window.exitonclick()            #exit wait on click
 
 draw_shadow()
