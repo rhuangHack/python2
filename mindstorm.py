@@ -6,6 +6,10 @@ def draw_spuare():
 
 
     brad = turtle.Turtle()
+    brad.shape("turtle")
+    brad.color("black")
+    brad.speed(1)
+
     brad.forward(100)
     brad.right(90)
     brad.forward(100)
